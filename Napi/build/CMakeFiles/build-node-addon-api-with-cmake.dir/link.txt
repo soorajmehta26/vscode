@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\build-node-addon-api-with-cmake.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\build-node-addon-api-with-cmake.dir/objects.a @CMakeFiles\build-node-addon-api-with-cmake.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -shared -o build-node-addon-api-with-cmake.node -Wl,--out-implib,libbuild-node-addon-api-with-cmake.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\build-node-addon-api-with-cmake.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\build-node-addon-api-with-cmake.dir\linkLibs.rsp

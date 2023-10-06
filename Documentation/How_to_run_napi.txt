@@ -1,0 +1,14 @@
+https://github.com/nodejs/node-addon-examples/tree/main/build_with_cmake/node-addon-api
+
+package.json is important
+
+"%ProgramFiles%\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat"
+
+to change to visual studio powershell put it in command line
+then run cmake.js compile
+
+
+actuallu it is using developer tools from visual studio 2022 alternative is "npm install --global --production windows-build-tools" but for some reason it is not working for me
+
+
+Look at helloworld on desktop

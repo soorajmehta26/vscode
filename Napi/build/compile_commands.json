@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/tcnca/OneDrive/Desktop/Napi/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -DNAPI_VERSION=3 -Dbuild_node_addon_api_with_cmake_EXPORTS @CMakeFiles/build-node-addon-api-with-cmake.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\build-node-addon-api-with-cmake.dir\\hello.cc.obj -c C:\\Users\\tcnca\\OneDrive\\Desktop\\Napi\\hello.cc",
+  "file": "C:/Users/tcnca/OneDrive/Desktop/Napi/hello.cc",
+  "output": "CMakeFiles/build-node-addon-api-with-cmake.dir/hello.cc.obj"
+}
+]

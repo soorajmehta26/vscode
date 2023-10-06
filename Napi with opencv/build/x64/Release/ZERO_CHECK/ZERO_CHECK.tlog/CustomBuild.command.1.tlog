@@ -1,0 +1,10 @@
+^C:\USERS\TCNCA\ONEDRIVE\DESKTOP\NAPI WITH OPENCV\BUILD\CMAKEFILES\3F4F1C0A756872943D48527E7A1A1B01\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/tcnca/OneDrive/Desktop/Napi with opencv" "-BC:/Users/tcnca/OneDrive/Desktop/Napi with opencv/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/tcnca/OneDrive/Desktop/Napi with opencv/build/opencvaddon.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

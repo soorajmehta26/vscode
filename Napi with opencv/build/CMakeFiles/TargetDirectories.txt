@@ -1,0 +1,3 @@
+C:/Users/tcnca/OneDrive/Desktop/Napi with opencv/build/CMakeFiles/opencvaddon.dir
+C:/Users/tcnca/OneDrive/Desktop/Napi with opencv/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/tcnca/OneDrive/Desktop/Napi with opencv/build/CMakeFiles/ZERO_CHECK.dir

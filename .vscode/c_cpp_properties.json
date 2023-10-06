@@ -1,22 +1,24 @@
 {
   "configurations": [
-      {
-          "name": "Win32",
-          "includePath": [
-              "${workspaceFolder}/**",
-              "c:/Users/tcnca/OneDrive/Desktop/vscode/c++" // Replace with your OpenCV include path
-          ],
-          "defines": [],
-          "intelliSenseMode": "msvc-x64",
-          "browse": {
-              "path": [
-                  "${workspaceFolder}",
-                  "c:/Users/tcnca/OneDrive/Desktop/vscode/c++" // Replace with your OpenCV include path
-              ],
-              "limitSymbolsToIncludedHeaders": true,
-              "databaseFilename": ""
-          }
-      }
+    {
+      "name": "windows-gcc-x86",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "defines": [],
+      "intelliSenseMode": "windows-gcc-x86",
+      "browse": {
+        "path": [
+          "${workspaceFolder}",
+          "c:/Users/tcnca/OneDrive/Desktop/vscode/c++"
+        ],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": ""
+      },
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "compilerPath": "C:/MinGW/bin/gcc.exe"
+    }
   ],
   "version": 4
 }

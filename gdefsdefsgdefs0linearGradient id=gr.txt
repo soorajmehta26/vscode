@@ -1,0 +1,19 @@
+<g><defs></defs><g><defs>0<linearGradient id="gradient_5" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0" stop-color="#e3e314"></stop><stop offset="100%" stop-color="rgba(227, 20, 20, 1)"></stop></linearGradient><linearGradient id="color_5" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#7cedff" stop-opacity="1 "></stop><stop offset="100%" stop-color="#7cedff" stop-opacity="1"></stop></linearGradient>
+
+   <filter id="colorFilter">
+    <feFlood flood-color="red" result="fill"></feFlood>
+    <feComposite operator="in" in="fill" in2="SourceGraphic" result="coloredImage"></feComposite>
+  </filter>
+    
+    <mask id="mask_5">
+        <image x="0" y="0" width="155.72053802177618" height="124.74387185615404" href="https://media.hellosivi.com/logos/sGsBM8OW5cs.png" opacity="1" filter="" mask="" transform=" scale(2.462646121496636 2.462646121496636)"></image>
+        
+    </mask>
+    
+    <pattern id="image5" x="0" y="0" width="100%" height="100%">
+        <image x="0" y="0" width="155.72053802177618" height="124.74387185615404" href="https://media.hellosivi.com/logos/sGsBM8OW5cs.png" opacity="1" filter="url(#colorFilter)" mask="" transform=" scale(2.462646121496636 2.462646121496636)" preserveAspectRatio="none"></image>
+    </pattern></defs><rect x="0" y="0" width="307.2" height="307.2" stroke-width="4" stroke-dasharray="normal" opacity="1" fill="url(#image5)" transform="translate(19.0526123046875 352.03509521484375) scale(0.4060672750627545 0.4060672750627545) rotate(0, 62.37193592807704, 62.37193592807704)" mask="" filter=""></rect>
+
+    <rect x="0" y="0" width="307.2" height="307.2" stroke-width="4" stroke-dasharray="normal" opacity="1" fill="url(#image5)" transform="translate(19.0526123046875 352.03509521484375) scale(0.4060672750627545 0.4060672750627545) rotate(0, 62.37193592807704, 62.37193592807704)" mask="url(#mask_5)" filter=""></rect>
+
+</g></g>
