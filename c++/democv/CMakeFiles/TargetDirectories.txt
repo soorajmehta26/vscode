@@ -1,0 +1,3 @@
+C:/Users/tcnca/OneDrive/Desktop/vscode/c++/democv/CMakeFiles/my_app.dir
+C:/Users/tcnca/OneDrive/Desktop/vscode/c++/democv/CMakeFiles/ALL_BUILD.dir
+C:/Users/tcnca/OneDrive/Desktop/vscode/c++/democv/CMakeFiles/ZERO_CHECK.dir

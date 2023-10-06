@@ -1,0 +1,33 @@
+cmake_minimum_required(VERSION 3.0)
+
+project(ColorizeImage)
+set(OpenCV_DIR "C:/opencv/build")
+# list(APPEND CMAKE_PREFIX_PATH "C:/OpenCV/build")
+set(OpenCV_CONFIG_PATH "C:/OpenCV/build/x64/vc16/bin")
+# Find OpenCV package
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+# Add the executable target
+add_executable(colorize_image _exp.cpp)
+
+message(STATUS "OpenCV library status:")
+message(STATUS "    config: ${OpenCV_DIR}")
+message(STATUS "    version: ${OpenCV_VERSION}")
+message(STATUS "    libraries: ${OpenCV_LIBS}")
+message(STATUS "    include path: ${OpenCV_INCLUDE_DIRS}")
+
+
+# Link the OpenCV libraries to your project
+target_link_libraries(colorize_image PRIVATE ${OpenCV_LIBS})
+
+# Set C++ standard to C++11 (or higher if needed)
+
+
+# You can set build type (Release, Debug, etc.) here
+# Uncomment one of the following lines as needed:
+# set(CMAKE_BUILD_TYPE Release)
+# set(CMAKE_BUILD_TYPE Debug)
+
+
+# Specify the output directory for the executable (optional)
+# set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)

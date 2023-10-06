@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" >
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:blue;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:red;stop-opacity:1" />
+    </linearGradient>
+
+    <pattern id="image" x="0" y="0" width="100%" height="100%" patternContentUnits="objectBoundingBox">
+      <image x="0" y="0" width="1" height="1" href="https://picsum.photos/200/300" preserveAspectRatio="none" />
+    </pattern>
+
+  </defs>
+  <path d="M100 10  L350 10 L350 300 L100 300 Z" fill="pink" />
+  <path d="M100 10  L350 10 L350 300 L100 300 Z" fill="url(#gradient)" />
+  <path d="M100 10  L350 10 L350 300 L100 300 Z" fill="url(#image)" opacity="0.5" />
+  
+  
+  
+</svg>

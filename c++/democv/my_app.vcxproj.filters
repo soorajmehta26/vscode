@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tcnca\OneDrive\Desktop\vscode\c++\democv\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tcnca\OneDrive\Desktop\vscode\c++\democv\CmakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B6C06D8A-BE64-33E3-B614-9DE710D5CA67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

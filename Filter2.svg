@@ -1,0 +1,8 @@
+ <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1000" height="577" viewBox="0 0 1000 577">
+ <filter id="demoFilter">
+    <feGaussianBlur  stdDeviation="1.5" />
+  </filter>
+    <image href="burj.jpg" width="300" height="350" x="10" y="10" preserveAspectRatio="none" />
+
+  <image href="burj.jpg" width="300" height="350" x="320" y="10" filter="url(#demoFilter)" preserveAspectRatio="none"  />
+</svg>

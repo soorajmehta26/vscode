@@ -1,0 +1,3 @@
+C:/Users/tcnca/OneDrive/Desktop/vscode/c++/CMakeFiles/colorize_image.dir
+C:/Users/tcnca/OneDrive/Desktop/vscode/c++/CMakeFiles/ALL_BUILD.dir
+C:/Users/tcnca/OneDrive/Desktop/vscode/c++/CMakeFiles/ZERO_CHECK.dir

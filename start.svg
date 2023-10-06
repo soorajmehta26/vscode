@@ -1,0 +1,22 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="1200" height="1200">
+  <defs>
+    <linearGradient id="Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(9, 255, 255, 0.8)" />
+      <stop offset="40%" stop-color="black" />
+    </linearGradient>
+
+    
+    <pattern id="GoldenLines" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="20" x2="40" y2="20" stroke="gold" stroke-width="5" />
+      <line x1="20" y1="0" x2="20" y2="40" stroke="gold" stroke-width="5" />
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="600" height="600" fill="url(#Gradient)" />
+   <rect x="600" y="600" width="600" height="600" fill="red" />
+   <rect x="600" y="600" width="600" height="600" fill="url(#GoldenLines)" />
+     <rect x="600" y="0" width="600" height="600" fill="pink" />
+  <image x="600" y="0" width="600" height="600" href="image.jpg" preserveAspectRatio="none"  />
+
+ 
+  
+</svg>

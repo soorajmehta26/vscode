@@ -1,0 +1,16 @@
+ <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1000" height="577" viewBox="0 0 1000 577">
+ <filter id="demoFilter">
+    <!-- Use feColorMatrix with type="matrix" for grayscale -->
+    <feColorMatrix
+      in="SourceGraphic"
+      type="matrix"
+      values="0.3333 0.3333 0.3333 0 0
+              0.3333 0.3333 0.3333 0 0
+              0.3333 0.3333 0.3333 0 0
+              0      0      0      1 0"
+    />
+  </filter>
+    <image href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/17119/redcharlie-k2zWqv_yfNM-unsplash.jpg" width="350" height="350" x="0" y="0" />
+
+  <image href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/17119/redcharlie-k2zWqv_yfNM-unsplash.jpg" width="350" height="350" x="355" y="0" filter="url(#demoFilter)" />
+</svg>

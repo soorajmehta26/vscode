@@ -1,0 +1,23 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="1000" width="1000">
+  <defs>
+    
+    <linearGradient id="StarGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="red" />
+      <stop offset="100%" stop-color="blue" />
+    </linearGradient>
+
+    
+    <pattern id="SmallStarsPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 10 0 L 12 8 L 20 8 L 14 12 L 16 20 L 10 16 L 4 20 L 6 12 L 0 8 L 8 8 Z" fill="yellow" />
+    </pattern>
+  </defs>
+
+
+  <path d="M 400 140 L 440 260 L 560 260 L 480 340 L 520 460 L 400 380 L 280 460 L 320 340 L 240 260 L 360 260 L 400 140"
+        fill="url(#StarGradient)" stroke="yellow" stroke-width="5" y="20"/>
+<path d="M 400 140 L 440 260 L 560 260 L 480 340 L 520 460 L 400 380 L 280 460 L 320 340 L 240 260 L 360 260 L 400 140"
+        fill="url(#SmallStarsPattern)" stroke="yellow" stroke-width="5" y="20"/>
+
+
+ 
+</svg>

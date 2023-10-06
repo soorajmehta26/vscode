@@ -1,0 +1,22 @@
+{
+  "configurations": [
+      {
+          "name": "Win32",
+          "includePath": [
+              "${workspaceFolder}/**",
+              "c:/Users/tcnca/OneDrive/Desktop/vscode/c++" // Replace with your OpenCV include path
+          ],
+          "defines": [],
+          "intelliSenseMode": "msvc-x64",
+          "browse": {
+              "path": [
+                  "${workspaceFolder}",
+                  "c:/Users/tcnca/OneDrive/Desktop/vscode/c++" // Replace with your OpenCV include path
+              ],
+              "limitSymbolsToIncludedHeaders": true,
+              "databaseFilename": ""
+          }
+      }
+  ],
+  "version": 4
+}

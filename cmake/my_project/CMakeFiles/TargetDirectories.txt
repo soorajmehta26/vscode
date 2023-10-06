@@ -1,0 +1,4 @@
+C:/Users/tcnca/OneDrive/Desktop/vscode/cmake/my_project/CMakeFiles/my_program.dir
+C:/Users/tcnca/OneDrive/Desktop/vscode/cmake/my_project/CMakeFiles/compute_boxes.dir
+C:/Users/tcnca/OneDrive/Desktop/vscode/cmake/my_project/CMakeFiles/ALL_BUILD.dir
+C:/Users/tcnca/OneDrive/Desktop/vscode/cmake/my_project/CMakeFiles/ZERO_CHECK.dir

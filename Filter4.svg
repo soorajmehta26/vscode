@@ -1,0 +1,12 @@
+ <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1000" height="577" viewBox="0 0 1000 577">
+ <filter id="demoFilter">
+   
+    <feDropShadow dx="10" dy="5" stdDeviation="5" flood-color="green" result="shadow1" />
+    <feGaussianBlur  stdDeviation="2" result="blur"/>
+    
+
+  </filter>
+    <image href="water.jpg" width="300" height="350" x="10" y="10" preserveAspectRatio="none" />
+
+  <image href="water.jpg" width="300" height="350" x="320" y="10" filter="url(#demoFilter)" preserveAspectRatio="none"  />
+</svg>

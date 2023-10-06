@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.0)
+
+project(MyProject)
+
+# Add the executable target for your main.cpp
+add_executable(my_program main.cpp)
+
+# Add the compute_boxes library
+add_library(compute_boxes STATIC compute_boxes.cpp)
+
+# Link your main program with the compute_boxes library
+target_link_libraries(my_program PRIVATE compute_boxes)
